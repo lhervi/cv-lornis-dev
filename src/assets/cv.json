@@ -1,0 +1,210 @@
+{
+    "es": {
+        "perfil": {
+            "nombre": "Lornis José Hervilla Zamora",
+            "titulo": "Desarrollador Fullstack (PHP / Laravel / React / Go)",
+            "ubicacion": "Puerto Píritu, Venezuela",
+            "bio": "Ingeniero de Sistemas con más de 25 años de experiencia en diferentes áreas de tecnología: Redes, Capacity Planning, Gestión de Proyectos y Desarrollo Web. Especializado en desarrollo Fullstack con PHP/Laravel, TypeScript/React y Go. Afín a los principios de código limpio, POO y gestión de bases de datos. Experiencia consolidando datos de sistemas de monitoreo e integración de soluciones personalizadas.",
+            "contacto": {
+                "email": "lhervi@gmail.com",
+                "linkedin": "https://linkedin.com/in/lornis-hervilla-58867815",
+                "github": "https://github.com/lhervi"
+            }
+        },
+        "educacion": [
+            {
+                "institucion": "Universidad Metropolitana",
+                "url": "https://www.unimet.edu.ve/",
+                "titulo": "Ingeniería de Sistemas",
+                "fecha": "1992 - 1998",
+                "descripcion": "1. Selección de Fútbol UNIMET. 2. Tesis con Mención Honorífica."
+            },
+            {
+                "institucion": "Universidad Simón Bolívar",
+                "url": "https://sites.google.com/usb.ve/postgradousb/ciencias-sociales-y-humanidades",
+                "titulo": "Especialista en Gestión de la Tecnología y la Innovación",
+                "fecha": "2004 - 2008",
+                "descripcion": ""
+            }
+        ],
+        "experiencia": [
+            {
+                "empresa": "Cantv",
+                "puesto": "Analista de Sistemas",
+                "periodo": "1997 - 2001",
+                "tecnologias": [
+                    "Visual Basic",
+                    "Microsoft SQL"
+                ],
+                "logros": [
+                    "Desarrollé una aplicación para la gestión administrativa de los circuitos dedicados de Cantv.",
+                    "Instalación de routers FrameRelay - SNA en oficinas comerciales de Táchira, Bolívar y Zulia."
+                ]
+            },
+            {
+                "empresa": "PDVSA",
+                "puesto": "Web Master",
+                "periodo": "2001 - 2002",
+                "tecnologias": [
+                    "Lotus Notes",
+                    "JavaScript",
+                    "HTML",
+                    "CSS"
+                ],
+                "logros": [
+                    "Modernicé las funcionalidades de navegación del portal Intranet de PDVSA Intevep, incrementando las visitas en un 30%."
+                ]
+            },
+            {
+                "empresa": "PDVSA",
+                "puesto": "Analista de Sistemas",
+                "periodo": "2002 - 2008",
+                "tecnologias": [
+                    "PHP",
+                    "JavaScript",
+                    "HTML",
+                    "CSS"
+                ],
+                "logros": [
+                    "Gestioné proyectos de desarrollo de aplicaciones web mejorando la calidad y los tiempos de entrega.",
+                    "Creé una metodología oficial para la evaluación de plataformas Unix/Linux en PDVSA Intevep."
+                ]
+            }
+        ],
+        "certificaciones": [
+            {
+                "nombre": "Mastering Algorithms and Data Structures in Go",
+                "emisor": "CodeSignal",
+                "fecha": "2025",
+                "url": "https://codesignal.com/learn/certificates/..."
+            }
+        ],
+        "habilidades": {
+            "lenguajes": [
+                "HTML",
+                "CSS",
+                "PHP",
+                "JavaScript",
+                "TypeScript",
+                "Go",
+                "SQL"
+            ],
+            "frameworks": [
+                "Laravel",
+                "React",
+                "Bootstrap",
+                "Tailwind"
+            ],
+            "herramientas": [
+                "Docker",
+                "Git",
+                "WSL2",
+                "Nginx"
+            ]
+        }
+    },
+    "en": {
+        "perfil": {
+            "nombre": "Lornis José Hervilla Zamora",
+            "titulo": "Fullstack Developer (PHP / Laravel / React / Go)",
+            "ubicacion": "Puerto Píritu, Venezuela",
+            "bio": "Systems Engineer with over 25 years of experience across various technology fields: Networking, Capacity Planning, Project Management, and Web Development. Specialized in Fullstack development using PHP/Laravel, TypeScript/React, and Go. Committed to Clean Code principles, OOP, and Database Management. Experienced in consolidating monitoring system data and integrating custom solutions.",
+            "contacto": {
+                "email": "lhervi@gmail.com",
+                "linkedin": "https://linkedin.com/in/lornis-hervilla-58867815",
+                "github": "https://github.com/lhervi"
+            }
+        },
+        "educacion": [
+            {
+                "institucion": "Metropolitan University",
+                "url": "https://www.unimet.edu.ve/",
+                "titulo": "Systems Engineering",
+                "fecha": "1992 - 1998",
+                "descripcion": "1. UNIMET Soccer Varsity Team. 2. Thesis with Honorary Mention."
+            },
+            {
+                "institucion": "Simón Bolívar University",
+                "url": "https://sites.google.com/usb.ve/postgradousb/...",
+                "titulo": "Specialist in Technology and Innovation Management",
+                "fecha": "2004 - 2008",
+                "descripcion": ""
+            }
+        ],
+        "experiencia": [
+            {
+                "empresa": "Cantv",
+                "puesto": "Systems Analyst",
+                "periodo": "1997 - 2001",
+                "tecnologias": [
+                    "Visual Basic",
+                    "Microsoft SQL"
+                ],
+                "logros": [
+                    "Developed an application for the administrative management of Cantv's dedicated circuits.",
+                    "Installed FrameRelay - SNA routers in commercial offices across Táchira, Bolívar, and Zulia states."
+                ]
+            },
+            {
+                "empresa": "PDVSA",
+                "puesto": "Web Master",
+                "periodo": "2001 - 2002",
+                "tecnologias": [
+                    "Lotus Notes",
+                    "JavaScript",
+                    "HTML",
+                    "CSS"
+                ],
+                "logros": [
+                    "Modernized navigation functionalities for the PDVSA Intevep Intranet portal, increasing visits by 30%."
+                ]
+            },
+            {
+                "empresa": "PDVSA",
+                "puesto": "Systems Analyst",
+                "periodo": "2002 - 2008",
+                "tecnologias": [
+                    "PHP",
+                    "JavaScript",
+                    "HTML",
+                    "CSS"
+                ],
+                "logros": [
+                    "Managed web application development projects, improving product quality and delivery times.",
+                    "Created an official methodology for Unix/Linux workstation evaluation at PDVSA Intevep."
+                ]
+            }
+        ],
+        "certificaciones": [
+            {
+                "nombre": "Mastering Algorithms and Data Structures in Go",
+                "emisor": "CodeSignal",
+                "fecha": "2025",
+                "url": "https://codesignal.com/learn/certificates/..."
+            }
+        ],
+        "habilidades": {
+            "lenguajes": [
+                "HTML",
+                "CSS",
+                "PHP",
+                "JavaScript",
+                "TypeScript",
+                "Go",
+                "SQL"
+            ],
+            "frameworks": [
+                "Laravel",
+                "React",
+                "Bootstrap",
+                "Tailwind"
+            ],
+            "herramientas": [
+                "Docker",
+                "Git",
+                "WSL2",
+                "Nginx"
+            ]
+        }
+    }
+}
