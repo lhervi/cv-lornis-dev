@@ -29,16 +29,18 @@
         ],
         "experiencia": [
             {
-                "empresa": "Cantv",
+                "empresa": "PDVSA",
                 "puesto": "Analista de Sistemas",
-                "periodo": "1997 - 2001",
+                "periodo": "2002 - 2008",
                 "tecnologias": [
-                    "Visual Basic",
-                    "Microsoft SQL"
+                    "PHP",
+                    "JavaScript",
+                    "HTML",
+                    "CSS"
                 ],
                 "logros": [
-                    "Desarrollé una aplicación para la gestión administrativa de los circuitos dedicados de Cantv.",
-                    "Instalación de routers FrameRelay - SNA en oficinas comerciales de Táchira, Bolívar y Zulia."
+                    "Gestioné proyectos de desarrollo de aplicaciones web mejorando la calidad y los tiempos de entrega.",
+                    "Creé una metodología oficial para la evaluación de plataformas Unix/Linux en PDVSA Intevep."
                 ]
             },
             {
@@ -56,18 +58,16 @@
                 ]
             },
             {
-                "empresa": "PDVSA",
+                "empresa": "Cantv",
                 "puesto": "Analista de Sistemas",
-                "periodo": "2002 - 2008",
+                "periodo": "1997 - 2001",
                 "tecnologias": [
-                    "PHP",
-                    "JavaScript",
-                    "HTML",
-                    "CSS"
+                    "Visual Basic",
+                    "Microsoft SQL"
                 ],
                 "logros": [
-                    "Gestioné proyectos de desarrollo de aplicaciones web mejorando la calidad y los tiempos de entrega.",
-                    "Creé una metodología oficial para la evaluación de plataformas Unix/Linux en PDVSA Intevep."
+                    "Desarrollé una aplicación para la gestión administrativa de los circuitos dedicados de Cantv.",
+                    "Instalación de routers FrameRelay - SNA en oficinas comerciales de Táchira, Bolívar y Zulia."
                 ]
             }
         ],
@@ -76,7 +76,13 @@
                 "nombre": "Mastering Algorithms and Data Structures in Go",
                 "emisor": "CodeSignal",
                 "fecha": "2025",
-                "url": "https://codesignal.com/learn/certificates/..."
+                "url": "https://codesignal.com/learn/certificates/go-ds-algo"
+            },
+            {
+                "nombre": "PHP Ejemplo",
+                "emisor": "CodeSignal",
+                "fecha": "2025",
+                "url": "https://codesignal.com/learn/certificates/php-example"
             }
         ],
         "habilidades": {
@@ -180,7 +186,13 @@
                 "nombre": "Mastering Algorithms and Data Structures in Go",
                 "emisor": "CodeSignal",
                 "fecha": "2025",
-                "url": "https://codesignal.com/learn/certificates/..."
+                "url": "https://codesignal.com/learn/certificates/go-ds-algo"
+            },
+            {
+                "nombre": "PHP Example",
+                "emisor": "CodeSignal",
+                "fecha": "2025",
+                "url": "https://codesignal.com/learn/certificates/php-example"
             }
         ],
         "habilidades": {

@@ -1,25 +1,30 @@
-:root {
-  /* Modo Claro */
-  --bg-color: #ffffff;
-  --text-color: #1a202c;
-  --accent-color: #3b82f6;
-  --card-bg: #f7fafc;
+@import "tailwindcss";
+@source "../src";
+
+@theme {
+  --color-test: #ff0000;
 }
 
-[data-theme='dark'] {
-  /* Modo Oscuro */
-  --bg-color: #242424;
-  --text-color: #f7fafc;
-  --accent-color: #63b3ed;
-  --card-bg: #2d3748;
+/* Configuramos el comportamiento del Modo Oscuro */
+@variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
+/* Estilos globales con CSS tradicional para asegurar el centrado */
+@layer base {
+  body {
+    @apply m-0 p-0 antialiased;
+    /* Forzamos fondo blanco y texto oscuro en modo claro */
+    background-color: #ffffff;
+    color: #111827;
+  }
+
+  /* Cuando el tema sea oscuro, cambiamos los colores base */
+  [data-theme="dark"] body {
+    background-color: #030712;
+    color: #f9fafb;
+  }
 }
 
-body {
-  background-color: var(--bg-color);
-  color: var(--text-color);
-  transition: all 0.3s ease;
-  /* Para que el cambio sea suave */
-  margin: 0;
-  font-family: Helvetica, Arial;
-  line-height: 1.5;
+/* La clase global para centrar todo el contenido */
+.cv-container {
+  @apply max-w-4xl mx-auto px-6 py-12 md:py-20;
 }
