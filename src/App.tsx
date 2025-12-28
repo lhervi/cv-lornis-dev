@@ -1,11 +1,12 @@
 import { useState, useEffect } from 'react';
 import Header from './components/Header';
 import Experience from './components/Experience';
+import Projects from './components/Projects';
 import cvData from './assets/cv.json';
 
 function App() {
   const [lang, setLang] = useState<'es' | 'en'>('es');
-  const [theme, setTheme] = useState<'light' | 'dark'>('light');
+  const [theme, setTheme] = useState<'light' | 'dark'>('dark');
 
   const cv = (cvData as any)[lang];
 
@@ -44,6 +45,7 @@ function App() {
       <main className="space-y-20">
         <Header perfil={cv.perfil} />
 
+        {/* Sobre mí */}
         <section className="space-y-4">
           <h3 className="text-sm font-black uppercase tracking-[0.3em] text-blue-600 dark:text-blue-400">
             {lang === 'es' ? 'Sobre mí' : 'About me'}
@@ -53,11 +55,19 @@ function App() {
           </p>
         </section>
 
-        <Experience
-          experiencias={cv.experiencia}
-          tituloSeccion={lang === 'es' ? 'Trayectoria Profesional' : 'Experience'}
+        {/* PROYECTOS (Nueva ubicación estratégica) */}
+        <Projects
+          proyectos={cv.proyectos}
+          tituloSeccion={lang === 'es' ? 'Proyectos Destacados' : 'Featured Projects'}
         />
 
+        {/* Experiencia */}
+        <Experience
+          experiencias={cv.experiencia}
+          tituloSeccion={lang === 'es' ? 'Trayectoria Profesional' : 'Professional Experience'}
+        />
+
+        {/* Educación */}
         <section className="space-y-8">
           <h3 className="text-sm font-black uppercase tracking-[0.3em] text-blue-600 dark:text-blue-400">
             {lang === 'es' ? 'Educación' : 'Education'}
@@ -76,6 +86,7 @@ function App() {
           </div>
         </section>
 
+        {/* Habilidades */}
         <section className="space-y-8">
           <h3 className="text-sm font-black uppercase tracking-[0.3em] text-blue-600 dark:text-blue-400">
             {lang === 'es' ? 'Habilidades' : 'Skills'}
@@ -96,6 +107,7 @@ function App() {
           </div>
         </section>
 
+        {/* Certificaciones */}
         <section className="space-y-6">
           <h3 className="text-sm font-black uppercase tracking-[0.3em] text-blue-600 dark:text-blue-400">
             {lang === 'es' ? 'Certificaciones' : 'Certifications'}

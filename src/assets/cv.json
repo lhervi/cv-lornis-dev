@@ -107,7 +107,37 @@
                 "WSL2",
                 "Nginx"
             ]
-        }
+        },
+        "proyectos": [
+            {
+                "nombre": "Sincronizador Clima-Tráfico",
+                "rol": "Arquitecto & Desarrollador",
+                "descripcion": "Plataforma de análisis de datos que cruza información meteorológica y flujo vial en tiempo real para predicción de rutas.",
+                "retoTecnico": "Sincronización de múltiples APIs asíncronas y normalización de datos geoespaciales con alta concurrencia en Go.",
+                "tecnologias": [
+                    "Go",
+                    "React",
+                    "PostgreSQL",
+                    "Leaflet.js"
+                ],
+                "url": "https://clima-trafico.netlify.app",
+                "github": "https://github.com/lhervi/clima-trafico"
+            },
+            {
+                "nombre": "Mini ERP Core",
+                "rol": "Líder de Proyecto",
+                "descripcion": "Sistema de gestión empresarial enfocado en control de inventarios y administración de roles de acceso.",
+                "retoTecnico": "Diseño de una arquitectura modular ligera capaz de ejecutarse en entornos con recursos limitados (Low-spec VPS).",
+                "tecnologias": [
+                    "PHP",
+                    "Laravel",
+                    "MySQL",
+                    "Tailwind CSS"
+                ],
+                "url": "https://mini-erp.netlify.app",
+                "github": "https://github.com/lhervi/minierp"
+            }
+        ]
     },
     "en": {
         "perfil": {
@@ -217,6 +247,36 @@
                 "WSL2",
                 "Nginx"
             ]
-        }
+        },
+        "proyectos": [
+            {
+                "nombre": "Weather-Traffic Sync",
+                "rol": "Architect & Developer",
+                "descripcion": "Data analysis platform that merges real-time weather and traffic flow information for route prediction.",
+                "retoTecnico": "Synchronizing multiple asynchronous APIs and normalizing geospatial data with high concurrency using Go.",
+                "tecnologias": [
+                    "Go",
+                    "React",
+                    "PostgreSQL",
+                    "Leaflet.js"
+                ],
+                "url": "https://clima-trafico.netlify.app",
+                "github": "https://github.com/lhervi/clima-trafico"
+            },
+            {
+                "nombre": "Mini ERP Core",
+                "rol": "Project Leader",
+                "descripcion": "Business management system focused on inventory control and access role administration.",
+                "retoTecnico": "Designing a lightweight modular architecture capable of running in resource-constrained environments (Low-spec VPS).",
+                "tecnologias": [
+                    "PHP",
+                    "Laravel",
+                    "MySQL",
+                    "Tailwind CSS"
+                ],
+                "url": "https://mini-erp.netlify.app",
+                "github": "https://github.com/lhervi/minierp"
+            }
+        ]
     }
 }
